@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+table {
+	width: 80%;
+	border-bottom: 3px solid black;
+	border: 0.5px solid #eee; /* 선 스타일과 색상 지정 */ border-collapse :
+	collapse; /* 테이블 셀 경계를 병합하여 선을 일관되게 표시 */
+	font-family: 'Hanna';
+	margin: auto;
+	border-collapse: collapse;
+}
+
+caption {
+	font-weight: bold;
+}
+
+table td {
+	padding: 10px;
+	background-color: #fff;
+}
+
+table th {
+	border-right: 1px solid #eee; /* 오른쪽에 세로 선 추가 */
+	background-color: #98C0F6;
+	color: black;
+	padding: 10px;
+}

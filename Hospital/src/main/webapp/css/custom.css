@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@media (max-width: 600px) {
+  .container {
+    overflow: hidden;
+  }
+}
+
+@font-face {
+	font-family: 'kopubLight';
+	src: url('../font/KoPubWorldDotumlight.ttf') format('truetype');
+	
+	font-family: 'kopubBold';
+	src: url('../font/KoPubWorldDotumBold.ttf') format('truetype');
+	
+	font-family: 'mapleLight';
+	src: url('../font/MaplestoryLight.ttf') format('truetype');
+	
+	font-family: 'gongLight';
+	src: url('../font/GongGothicLight.ttf') format('truetype');
+	
+	font-family: 'gongBold';
+	src: url('../font/GongGothicMedium.ttf') format('truetype');
+}
+
+
+* {
+	font-family : 'Nanum Gothic';
+}
+
+h1 {
+	font-family : 'Hanna';
+}
+
+h5 {
+	font-family : 'kopubLight';
+}
+
+#top_menu {
+	position: absolute;
+	top: 20px;
+	right: 80px;
+	color:#3592A1;
+	}
+
+/* top_menu a의 글씨 */
+#top_menu a {
+	font-family: 'gongLight';
+	color:#3592A1;
+	text-decoration: none;
+}
+
+#span a {
+	color: red;
+}
